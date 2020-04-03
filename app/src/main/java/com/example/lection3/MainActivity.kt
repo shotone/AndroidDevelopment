@@ -11,21 +11,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        getProfileInfo()
         init()
     }
 
-//    private fun getProfileInfo(){
-//        val account = Account()
-//        account.Email = "shota.firanashvili.1@btu.edu.ge"
-//        account.Gender = "Male"
-//        account.Lastname = "Piranashvili"
-//        account.Name = "Shota"
-//        account.Year = 1999
 
-
-
-//    }
 
     private fun init(){
         changeId.setOnClickListener(){
