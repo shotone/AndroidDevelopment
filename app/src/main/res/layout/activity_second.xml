@@ -23,10 +23,9 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp">
 
-        <TextView
+        <EditText
             android:textSize="20dp"
-            android:text="shota.firanashvili.1@btu.edu.ge"
-            android:id="@+id/emailId"
+            android:id="@+id/email1Id"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:hint="Your Email"
@@ -34,10 +33,9 @@
             android:inputType="text"
             android:paddingHorizontal="10dp"/>
 
-        <TextView
+        <EditText
             android:textSize="20dp"
-            android:text="shota"
-            android:id="@+id/nameId"
+            android:id="@+id/name1Id"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -45,10 +43,9 @@
             android:hint="Your Name"
             android:paddingHorizontal="10dp"/>
 
-        <TextView
+        <EditText
             android:textSize="20dp"
-            android:text="piranashvili"
-            android:id="@+id/lastnameId"
+            android:id="@+id/lastname1Id"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -56,10 +53,9 @@
             android:hint="Your LastName"
             android:paddingHorizontal="10dp"/>
 
-        <TextView
+        <EditText
             android:textSize="20dp"
-            android:text="Male"
-            android:id="@+id/genderId"
+            android:id="@+id/gender1Id"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -67,10 +63,9 @@
             android:hint="Your Gender"
             android:paddingHorizontal="10dp"/>
 
-        <TextView
+        <EditText
             android:textSize="20dp"
-            android:text="1999"
-            android:id="@+id/yearId"
+            android:id="@+id/year1Id"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -82,12 +77,13 @@
 
 
     <Button
-        android:id="@+id/changeId"
+        android:id="@+id/saveId"
+        android:shadowColor="@color/cardview_light_background"
         android:textSize="18sp"
         android:textColor="#fff"
         android:background="#03A9FA"
         android:layout_gravity="bottom"
-        android:text="change"
+        android:text="SAVE"
         android:layout_width="match_parent"
         android:layout_height="60dp"/>
 
