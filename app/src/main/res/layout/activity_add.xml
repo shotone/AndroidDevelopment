@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/editImageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="40dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/edittitleText"
+            android:background="@color/design_default_color_on_primary"
+            android:hint="Enter Title"
+            android:maxLines="1"
+            android:padding="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editdescText"
+            android:background="@color/design_default_color_on_primary"
+            android:hint="Enter Description..."
+            android:padding="25dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/editbutton"
+            android:layout_marginTop="10dp"
+            android:text="ADD ITEM"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:background="@color/cardview_dark_background"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
