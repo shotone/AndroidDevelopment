@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "126690836273",
+    "firebase_url": "https://shualeduri-a7fe4.firebaseio.com",
+    "project_id": "shualeduri-a7fe4",
+    "storage_bucket": "shualeduri-a7fe4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126690836273:android:72aa112b75f80c41c07a10",
+        "android_client_info": {
+          "package_name": "com.example.shualeduri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126690836273-klq5sgtandj7utbs2v30sg4901hkvq92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT3lBomsMMpeLe5Zsb6w7T5DqdSN4u27Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126690836273-klq5sgtandj7utbs2v30sg4901hkvq92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

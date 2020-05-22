@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@mipmap/signupback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/signup"/>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <EditText
+            android:id="@+id/useremailid"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:background="@color/colorEditText"
+            android:paddingHorizontal="10dp"
+            android:layout_height="60dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:id="@+id/passwordid"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:background="@color/colorEditText"
+            android:paddingHorizontal="10dp"
+            android:layout_height="60dp"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+        
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:background="@color/colorPrimaryDark"
+            android:padding="16dp"
+            android:text="SIGN UP"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffff"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/gobackid"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="#C52E2F"
+            android:layout_gravity="bottom"
+            android:textStyle="normal"
+            android:text="Go Back"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+</FrameLayout>
