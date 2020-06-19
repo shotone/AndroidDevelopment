@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="ItemView"
+            type="com.example.davaleba7.ItemModel"/>
+    </data>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="@{ItemView.titleEN}"
+            android:id="@+id/TitlId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="7dp"
+            android:textSize="30sp" />
+
+        <ImageView
+            setImage="@{ItemView.cover}"
+            android:id="@+id/CoverId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp" />
+
+        <TextView
+            android:text="@{ItemView.descriptionEN}"
+            android:id="@+id/DesctriptionId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+</layout>
